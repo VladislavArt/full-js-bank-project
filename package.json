@@ -1,0 +1,37 @@
+{
+  "name": "red-bank-js",
+  "version": "1.0.0",
+  "description": "Project for bank",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Vladislav",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "6.7.3",
+    "css-minimizer-webpack-plugin": "5.0.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.22.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "prettier": "^3.5.3",
+    "sass": "1.62.1",
+    "sass-loader": "13.2.2",
+    "style-loader": "3.3.2",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
