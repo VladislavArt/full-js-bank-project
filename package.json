@@ -1,5 +1,5 @@
 {
-  "name": "red-bank-js",
+  "name": "bank-js",
   "version": "1.0.0",
   "description": "Project for bank",
   "main": "webpack.config.js",
